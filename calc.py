@@ -1,3 +1,4 @@
+# function to perform calculations in string
 def compute(expression):
     values = expression.split(' ')
     num0 = int(values[0])
