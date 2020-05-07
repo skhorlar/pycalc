@@ -8,6 +8,9 @@ def compute(expression):
         return num0 - num1
  	elif operator == '*':
         return num0 * num1
+    elif operator == '/':
+    	return num0 / num1
+>>>>>>> add-division
     else:
         print('unknown operator!')
         return None 
